@@ -54,7 +54,7 @@ else {
 var divisible = +prompt("Kahif ALi Enter Number Which you Like");
 if (divisible % 3 === 0) {
     console.log("Yes Divide By 3")
-}else{
+} else {
     console.log("Not Divide By 3");
 }
 
@@ -63,4 +63,39 @@ if (divisible % 3 === 0) {
 // clock format like: 1900 = 7pm. Implement the following case
 // using if, else & else if statements
 
-var 
+var time = +prompt("Kashif Enter");
+if (time >= 0 && time < 1200) {
+    console.log("Good Morning");
+} else if (time >= 1200 && time < 1700) {
+    console.log("Good After Noon");
+} else if (time >= 1700 && time < 2100) {
+    console.log("Good Evening");
+} else if (time >= 2100 && time < 2390) {
+    console.log("Good Night");
+} else {
+    console.log()
+}
+
+
+
+var year = prompt("Enter Current Year");
+var leap = (2023 == 2028 == 2032);
+
+if (year % 100 === 0) {
+    console.log("it is a leap year")
+} else {
+    console.log("This is Not leap Year")
+}
+
+
+//  Question NO 11
+
+// Write a program that adds an else statement to the following
+// script to display “You are not Fahad”
+
+var firstName = prompt("Enter Your Name");
+if (firstName === "Kashif Ali") {
+    console.log("Yes Kashif ali");
+}else {
+    console.log("You Are Not Kashif ALi");
+}
