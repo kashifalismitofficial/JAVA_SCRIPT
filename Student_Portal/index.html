@@ -5,19 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Js Assigment</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <input type="number" placeholder="Enter Physics Marks" id="input1"> <br /><br />
-    <input type="number" placeholder="Enter Maths Marks" id="input2"> <br /><br />
-    <input type="number" placeholder="Enter Chemistry Marks" id="input3"> <br /><br />
-    <input type="number" placeholder="Enter Computer Marks" id="input4"> <br /><br />
-    <input type="number" placeholder="Enter Urdu Marks" id="input5"> <br /><br />
-    <button onclick="studentPortal()">Submit Here!</button>
 
-    <h2>Total Marks : <span id="totalmarks">0</span></h2>
-    <h2>Your Percentage : <span id="percentage">0</span>%</h2>
-    <h2>Your Grade : <span id="grade"></span></h2>
+    <div class="d-flex ">
+        <div class="input ">
+            <label for="">Enter Physics</label>
+            <input type="number" placeholder="Enter Physics Marks..." id="input1"> <br /><br />
+            <input type="number" placeholder="Enter Maths Marks..." id="input2"> <br /><br />
+            <input type="number" placeholder="Enter Chemistry Marks..." id="input3"> <br /><br />
+            <input type="number" placeholder="Enter Computer Marks..." id="input4"> <br /><br />
+            <input type="number" placeholder="Enter Urdu Marks..." id="input5"> <br /><br />
+            <button class="btn" onclick="studentPortal()">Submit Here!</button>
+        </div>
+
+        <div class="content">
+            <h2>Total Marks : <span id="totalmarks">0</span></h2>
+            <h2>Your Percentage : <span id="percentage">0</span>%</h2>
+            <h2>Your Grade : <span id="grade"></span></h2>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 
