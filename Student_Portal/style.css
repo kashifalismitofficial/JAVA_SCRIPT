@@ -19,9 +19,7 @@ body {
     
     padding: 5px 15px;
     padding-left: 10px;
-    padding-right: 25px;
-    /* text-align: center; */
-    /* border-radius: 10px 5px 10px 5px; */
+    padding-right: 25px;    
     border: 1px solid #000;
     background-color: transparent;
     color: #000;
@@ -33,7 +31,7 @@ body {
     padding: 5px 25px;
     border-radius: 20px;
     border: 1px solid #000;
-    background-color: black;
+    background-color: #F37335;
     color: aliceblue;
 }
 
