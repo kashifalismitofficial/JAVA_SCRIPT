@@ -1,36 +1,44 @@
 body {
 
-    background-color:#F7B15B;
-    
+    background-color: #F7B15B;
+
 }
+
 .input {
-   
+
     margin-top: 100px;
     background-color: #FFF;
-    padding: 40px 18px;
+    padding: 40px 45px;
     margin-left: 50px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 25px 1px 25px 1px;
+    border-radius: 25px 25px 25px 25px;
 
 }
 
 .input>input {
-    
-    padding: 5px 15px;
+
+    padding: 6px 10px;
     padding-left: 10px;
-    padding-right: 25px;    
-    border: 1px solid #000;
+    padding-right: 25px;
+    border: 1px solid #616161;
+    border-radius: 5px;
     background-color: transparent;
     color: #000;
     font-size: 13px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-bottom: 10px;
+}
+
+.input label {
+    font-size: 12px;
+    font-family: sans-serif;
 }
 
 .btn {
-    padding: 5px 25px;
+    padding: 10px 25px;
     border-radius: 20px;
-    border: 1px solid #000;
+    border: none;
     background-color: #F37335;
     color: aliceblue;
 }
@@ -55,6 +63,5 @@ body {
 .d-flex {
     display: flex;
     justify-content: space-around;
-    width: 600px;
+    /* width: 600px; */
 }
-
