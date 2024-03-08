@@ -1,3 +1,6 @@
+
+  
+
 body {
 
     background-color: #F7B15B;
@@ -49,20 +52,25 @@ body {
     text-transform: lowercase;
 }
 
-.content {
-    margin-top: 120px;
-    padding-left: 50px;
+.content {  
     margin-top: 180px;
+    width: 447.7px;
 }
 
 .content h2 {
-    font-size: 18px;
-    font-family: sans-serif;
+    font-size: 25px;
+    font-family: "Madimi One", sans-serif;
 
+}
+.content h1 {
+    font-size: 45px;
+    padding: 0px;
+    font-family: "Knewave", system-ui;
 }
 
 .d-flex {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     /* width: 600px; */
 }
