@@ -10,4 +10,4 @@
 
 # Student Portal
 
-## https://studentportal1.netlify.app/
+## https://student-portal2.netlify.app/
