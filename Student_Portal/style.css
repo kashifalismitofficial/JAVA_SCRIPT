@@ -12,7 +12,7 @@ body {
     margin-top: 100px;
     background-color: #FFF;
     padding: 40px 45px;
-    margin-left: 50px;
+ 
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 25px 25px 25px 25px;
@@ -73,4 +73,11 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     /* width: 600px; */
+}
+
+@media only screen and (max-width:366px)
+{
+    /* .input{
+        margin-left: 50px;
+    }  */
 }
