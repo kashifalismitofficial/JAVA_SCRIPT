@@ -46,7 +46,7 @@
 
 
 let Kashiffamilychild =['Ubaidullah jani', 'Rehan jan', 'Ali kokay', 'Azan Jan'  , ['Mujahid Ali', 'Abdul Hadii Baba']];
-console.log();
+console.log(Kashiffamilychild[4]);
 
 
 
