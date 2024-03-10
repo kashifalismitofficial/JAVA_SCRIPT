@@ -6,17 +6,17 @@
 
 
 
-// let firstName = "Kashif";
-// firstName ="Ali Awan";
-// console.log(firstName);
+let firstName = "Kashif";
+firstName ="Ali Awan";
+console.log(firstName);
 
 
 
 
 
-// const userName ="kashif Ali jan";
-// userName = "just chk";
-// console.log(userName);
+const userName ="kashif Ali jan";
+userName = "just chk";
+console.log(userName);
 
 
 
