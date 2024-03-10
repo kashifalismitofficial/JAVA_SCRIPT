@@ -24,17 +24,17 @@
 
 
 
-// let city1 = 'karachi';
-// let city2 = 'lahore';
-// let city3 = 'islamabad';
+let city1 = 'karachi';
+let city2 = 'lahore';
+let city3 = 'islamabad';
 
 
 // let cities = ['karachi' , 'lahore' , 'islamabad' , 'faislabad' , 'hyderabad' , 'sheikarpur'];
-// let cities = ['karachi' , 'lahore' , 'islamabad' , 'faislabad' , 'hyderabad' , 'sheikarpur' , 20 , true , ['fb area' , 'liyari' , 'golimar']];
-// console.log(cities[8][2]);
-// console.log(cities.length);
-// console.log(cities[3]);
-// console.log(typeof(cities))
+let cities = ['karachi' , 'lahore' , 'islamabad' , 'faislabad' , 'hyderabad' , 'sheikarpur' , 20 , true , ['fb area' , 'liyari' , 'golimar']];
+console.log(cities[8][2]);
+console.log(cities.length);
+console.log(cities[3]);
+console.log(typeof(cities))
 
 
 
