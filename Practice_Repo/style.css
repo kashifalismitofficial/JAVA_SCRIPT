@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+
+h2 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+
+}
+
+h3 {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+}
+
+p {
+    font-size: 17px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
