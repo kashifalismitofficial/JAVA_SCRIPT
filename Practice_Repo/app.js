@@ -66,24 +66,27 @@
 //         head2.innerHTML=`${fruits.value} is available`
 //     } else {
 //         console.log("not fruit in not available");
-//         head2.innerHTML=`${fruits.value} is not  available`
+// head2.innerHTML=`${fruits.value} is not  available`
 //     }
 //    fruits.value="";
 
 // }
 
-// Error>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// const shop = ['Apple', 'graps', 'mango', 'bnana', 'watermelon', 'salat','kashif ali'];
-// let fruits = prompt("Which Fruit"getFruits());
-// let head2 = document.querySelector(`#head-2`);
 
-// function getFruits() {
-//     if (shop.includes(fruits.value)) {
-//         console.log("yes available");
-//     }else{
-//         console.log("sorry not available");
-//     }
-// }
+const shop = ['Apple', 'graps', 'mango', 'bnana', 'watermelon', 'salat', 'kashif ali'];
+let fruits = prompt("Which Fruit");
+let head2 = document.querySelector(`#head-2`);
+
+function getFruits() {
+    if (shop.includes(fruits.value)) {
+        console.log("yes available");
+        head2.innerHTML = `${fruits.value} is Available`
+    } else {
+        console.log("sorry not available");
+        head2.innerHTML = `${fruits.value} is Not Available`
+    }
+}
+getFruits()
 
 
 
