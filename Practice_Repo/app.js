@@ -52,7 +52,7 @@
 
 
 
-const shop = ['Apple', 'graps', 'mango', 'bnana', 'watermelon', 'salat'];
+const shop = ['Apple', 'graps', 'mango', 'bnana', 'watermelon', 'salat','kashif ali'];
 let fruits = document.querySelector(`#fruits`);
 let head2 = document.querySelector(`#head-2`);
 

@@ -30,11 +30,15 @@ p {
 }
 input{
     padding: 7px 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
     
     
 }
 button{
     padding: 7px 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 .cntr{
     text-align: center;
