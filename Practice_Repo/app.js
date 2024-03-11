@@ -63,9 +63,12 @@ function getFruits() {
     console.log(fruits.value);
     if (shop.includes(fruits.value)) {
         console.log("Fruit in available");
+        head2.innerHTML=`${fruits.value} is available`
     } else {
-        console.log("not fruit in not available")
+        console.log("not fruit in not available");
+        head2.innerHTML=`${fruits.value} is not  available`
     }
+   fruits.value="";
 
 }
 

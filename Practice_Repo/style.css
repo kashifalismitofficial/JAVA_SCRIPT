@@ -28,3 +28,15 @@ p {
     margin: auto;
     text-align: center;
 }
+input{
+    padding: 7px 20px;
+    
+    
+}
+button{
+    padding: 7px 20px;
+}
+.cntr{
+    text-align: center;
+    padding-top: 20px;
+}
