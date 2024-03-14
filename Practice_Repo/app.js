@@ -73,20 +73,109 @@
 // }
 
 
-const shop = ['Apple', 'graps', 'mango', 'bnana', 'watermelon', 'salat', 'kashif ali'];
-let fruits = prompt("Which Fruit");
-let head2 = document.querySelector(`#head-2`);
+// const shop = ['Apple', 'graps', 'mango', 'bnana', 'watermelon', 'salat', 'kashif ali'];
+// let fruits = prompt("Which Fruit");
+// let head2 = document.querySelector(`#head-2`);
 
-function getFruits() {
-    if (shop.includes(fruits.value)) {
-        console.log("yes available");
-        head2.innerHTML = `${fruits.value} is Available`
-    } else {
-        console.log("sorry not available");
-        head2.innerHTML = `${fruits.value} is Not Available`
+// function getFruits() {
+//     if (shop.includes(fruits.value)) {
+//         console.log("yes available");
+//         head2.innerHTML = `${fruits.value} is Available`
+//     } else {
+//         console.log("sorry not available");
+//         head2.innerHTML = `${fruits.value} is Not Available`
+//     }
+// }
+// getFruits()
+
+
+
+
+// loops work in smit
+
+for (let i = 1; i <= 10; i++){
+        console.log(outer Loop ===> , i);
+        for
     }
+
+
+
+
+    let table = +prompt('Enter table');
+    let times = +prompt('Enter time')
+    
+    for  (i = 1; i <= times ; i++){
+        console.log(${table}* ${i} = ${table * i});
+    }
+
+
+    let table = 2;
+    let times = 10;
+    
+    for  (i = 1; i <= times ; i++){
+        console.log(${table}* ${i} = ${table * i});
+    }
+     
+    
+    for  (i = 1; i <= 10 ; i++){
+        console.log(${3}* ${i} = ${3 * i});
+    }
+    for  (i = 1; i <= 10 ; i++){
+        console.log(${4}* ${i} = ${4 * i});
+    }
+    for  (i = 1; i <= 10 ; i++){
+        console.log(${5}* ${i} = ${5 * i});
+    }
+    for  (i = 1; i <= 10 ; i++){
+        console.log(${6}* ${i} = ${6 * i});
+    }
+    for  (i = 1; i <= 10 ; i++){
+        console.log(${7}* ${i} = ${7 * i});
+    }
+    for  (i = 1; i <= 10 ; i++){
+        console.log(${8}* ${i} = ${8 * i});
+    }
+    for  (i = 1; i <= 10 ; i++){
+        console.log(${9}* ${i} = ${9 * i});
+    }
+    for  (i = 1; i <= 10 ; i++){
+        console.log(${10}* ${i} = ${10 * i});
+    }
+
+
+    for (i = 1; i <= 100; i++){
+          console.log();
+          for(j=1; j <=10; j++){
+            console.log(${i}*${j} = ${i*j});
+          }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for (i = 0; i < 10; i++){
+    console.log(`As salam U alikum ! Kashif Ali`, i);
 }
-getFruits()
+
+
+
+let table = `5`;
+
+for (let i = 1; i < 10; i++) {
+   console.log(`${table} * ${i} = ${table * i}`);
+    
+}
 
 
 
