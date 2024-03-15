@@ -179,6 +179,33 @@
 
 
 
+// <<<<<<<<<<<<<<<>>>>>>>>>>><<<<<<>>>>>
+// <<<just for checking pull command>>>>
+
+// let table = `5`;
+
+// for (let i = 1; i < 10; i++) {
+//    console.log(`${table} * ${i} = ${table * i}`);
+    
+// }
+
+
+// let table = `5`;
+
+// for (let i = 1; i < 10; i++) {
+//    console.log(`${table} * ${i} = ${table * i}`);
+    
+// }
+
+// let table = `5`;
+
+// for (let i = 1; i < 10; i++) {
+//    console.log(`${table} * ${i} = ${table * i}`);
+    
+// }
+
+
+
 
 
 
