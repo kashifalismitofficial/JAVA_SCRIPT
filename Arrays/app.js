@@ -89,6 +89,10 @@
 
 
 
+// 10. Declare and Initialize an array with your favorite cars. Show
+// a. First index of the array
+// b. Car at first index of the array
+// c. Last index of the array
 
 
 
@@ -144,8 +148,23 @@
 
 
 
+let favoriteCars = ["Tesla Model S", "Porsche 911", "Audi R8", "BMW M5"];
 
+// a. First index of the array
+let firstIndex = 0;
 
+// b. Car at first index of the array
+let carAtFirstIndex = favoriteCars[firstIndex];
+
+// c. Last index of the array
+let lastIndex = favoriteCars.length - 1;
+let carAtLastIndex = favoriteCars[lastIndex];
+
+// Display the information
+console.log("First index of the array:", firstIndex);
+console.log("Car at first index of the array:", carAtFirstIndex);
+console.log("Last index of the array:", lastIndex);
+console.log("Car at last index of the array:", carAtLastIndex);
 
 
 
