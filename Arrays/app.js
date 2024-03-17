@@ -2,14 +2,14 @@
 // student names in future.>>>>>>>>>
 
 // Ans  let futureStudentsName = [];
-    //  console.log=(futureStudents);
+//  console.log=(futureStudents);
 
 
 // 2. Declare an empty array using JS object notation to store
 // student names in future.
 
 // Ans  let futureStudentNames = new Array();
-        // console.log(futureStudentNames);
+// console.log(futureStudentNames);
 
 
 // 3. Declare and initialize a strings array        
@@ -82,7 +82,7 @@
 // let movi = document.querySelector(`#list`);
 // for (let i = 0; i < topMovies2015.length; i++){
 //     movi.innerHTML+=(`<li>${topMovies2015[i]}</li>`)
-    
+
 // }
 // document.write("Here total lenght ",topMovies2015.length)
 
@@ -94,6 +94,66 @@
 // b. Car at first index of the array
 // c. Last index of the array
 
+// let favoriteCars = ["Tesla Model S", "Porsche 911", "Audi R8", "BMW M5"];
+
+// // a. First index of the array
+// let firstIndex = 0;
+
+// // b. Car at first index of the array
+// let carAtFirstIndex = favoriteCars[firstIndex];
+
+// // c. Last index of the array
+// let lastIndex = favoriteCars.length - 1;
+// let carAtLastIndex = favoriteCars[lastIndex];
+
+// // Display the information
+// console.log("First index of the array:", firstIndex);
+// console.log("Car at first index of the array:", carAtFirstIndex);
+// console.log("Last index of the array:", lastIndex);
+// console.log("Car at last index of the array:", carAtLastIndex);
+
+
+
+
+// 11. Write a program to store 3 student names in an array. Take
+// another array to store score of these three students. Assume
+// that total marks are 500 for each student, display the scores &
+// percentages of students like:
+
+// Answer :
+
+// var totalScore = 500;
+// let students = ['Kashif Ali', 'Irfan', 'Fayaz rajper'];
+// let scores = [455, 460, 465];
+// let kashifPercentage = [`${scores[0] / totalScore * 100}`]
+// let irfanPercentage = [`${scores[1] / totalScore * 100}`]
+// let fayazPercentage = [`${scores[2] / totalScore * 100}`]
+
+// console.log(`Score of ${students[0]} is: ${scores[0]} And Percentage: ${kashifPercentage}`);
+// console.log(`Score of ${students[1]} is: ${scores[1]} And Percentage: ${irfanPercentage}`);
+// console.log(`Score of ${students[2]} is: ${scores[2]} And Percentage: ${fayazPercentage}`);
+
+
+// 13. Write a program to store student scores in an array & sort
+// the array in ascending order using Array’s sort method. 
+
+// let studentScore = ["320", "230", "480", "120"];
+// console.log(studentScore.sort());
+
+
+
+// 14. Write a program to sort the below mentioned array:
+// Answer:
+
+//  let fruits = ['strawberry','apple','orange','bnana'];
+//  console.log(fruits.sort());
+ 
+
+// 15. Write a program to initialize an array with city names. Copy
+// 3 array elements from cities array to selectedCities array. 
+
+// let cities = ['Karcahi', 'Lahore', 'Islamabad', 'peshawer', 'Quota']
+// console.log(`Selected Cities list: ${cities[2]} ${cities[4]}`);
 
 
 
@@ -146,25 +206,6 @@
 
 
 
-
-
-let favoriteCars = ["Tesla Model S", "Porsche 911", "Audi R8", "BMW M5"];
-
-// a. First index of the array
-let firstIndex = 0;
-
-// b. Car at first index of the array
-let carAtFirstIndex = favoriteCars[firstIndex];
-
-// c. Last index of the array
-let lastIndex = favoriteCars.length - 1;
-let carAtLastIndex = favoriteCars[lastIndex];
-
-// Display the information
-console.log("First index of the array:", firstIndex);
-console.log("Car at first index of the array:", carAtFirstIndex);
-console.log("Last index of the array:", lastIndex);
-console.log("Car at last index of the array:", carAtLastIndex);
 
 
 
