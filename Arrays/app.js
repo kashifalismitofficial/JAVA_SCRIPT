@@ -18,3 +18,10 @@
 // console.log(Strig)
 // console.log(typeof(Strig));
 // console.log(Strig.length);
+
+
+// 4. Declare and initialize a numbers array.
+
+let numbers = [1,2,5,6,5,25,5,86,5,97];
+console.log(numbers);
+console.log(numbers.length);
