@@ -10,13 +10,13 @@ body {
     font-style: normal;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
-.d-block
-{
+
+.d-block {
     display: block;
 }
 
@@ -43,7 +43,8 @@ body {
     display: block;
 
 }
-.action button{
+
+.action button {
     padding: 7px 15px;
     background-color: #CF2762;
     border: 2px solid #CF2762;
@@ -60,6 +61,7 @@ body {
     color: #000;
 
 }
+
 /* input Buttons */
 .btn {
     padding: 15px 10px;
@@ -79,7 +81,8 @@ body {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     color: #CF2762;
 }
-ul{
+
+ul {
     padding: 15px;
     border: 1px solid #CF2762;
     border-radius: 10px;
@@ -89,34 +92,31 @@ ul{
 }
 
 /* Right Side  */
-.right_side{
-padding:60px 0px;
-color: #9D9B9F;
-line-height: 30px;
+.right_side {
+    padding: 60px 0px;
+    color: #9D9B9F;
+    line-height: 30px;
 }
 
-.clr
-{
+.clr {
     color: #CF2762;
     font-weight: 600;
 }
-a{
+
+a {
     text-decoration: none;
     color: #e85c8d;
-    
-    
+
+
 }
 
-.footer{
-    height: 100px;
- 
+.footer {
+    height: 200px;
+
     color: #fff;
     padding-left: 20px;
     font-size: 28px;
     padding-top: 10px;
-    padding-bottom: 30px;
     background-color: #CF2762;
-  text-align: center;
-    margin-bottom: 50px;
+    text-align: center;
 }
-
