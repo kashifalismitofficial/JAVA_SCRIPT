@@ -10,8 +10,8 @@ function runTodo() {
 
     for (let i = 0; i < arr.length; i++) {
         ol.innerHTML += `<li>${arr[i]}
-        <button onclick="deletTodo(${i})">Delete</button> <button onclick=
-        "editTodo(${i})">Edit</button>
+        <span class="action"><button onclick="deletTodo(${i})">Delete</button> <button onclick=
+        "editTodo(${i})">Edit</button></span>
         </li>`
 
     }
@@ -22,28 +22,30 @@ function runTodo() {
 
 
 function deletTodo(index) {
-    ol.innerHTML="";
+    ol.innerHTML = "";
     console.log(`delete todo`, index)
-    arr.splice(index , 1 )
+    arr.splice(index, 1)
 
     for (let i = 0; i < arr.length; i++) {
         ol.innerHTML += `<li>${arr[i]}
-        <button onclick="deletTodo(${i})">Delete</button> <button onclick=
-        "editTodo(${i})">Edit</button>
+        <span class="action"><button onclick="deletTodo(${i})">Delete</button> <button onclick=
+        "editTodo(${i})">Edit</button></span>
         </li>`
 
     }
 }
 
 function editTodo(index) {
-    ol.innerHTML=""
+    ol.innerHTML = ""
     console.log(`edit todo`, index);
     let updatedvalue = prompt("Enter Updated Value");
-    arr.splice(index,1,updatedvalue)
+    arr.splice(index, 1, updatedvalue)
+
+
     for (let i = 0; i < arr.length; i++) {
         ol.innerHTML += `<li>${arr[i]}
-        <button onclick="deletTodo(${i})">Delete</button> <button onclick=
-        "editTodo(${i})">Edit</button>
+        <span class="action"><button  onclick="deletTodo(${i})">Delete</button> <button class="btn2" onclick=
+        "editTodo(${i})">Edit</button></span>
         </li>`
 
     }
