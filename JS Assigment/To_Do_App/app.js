@@ -1,5 +1,5 @@
 let inputTodo = document.querySelector(`#inputTodo`);
-let ol = document.querySelector(`ol`);
+let ol = document.querySelector(`ul`);
 let arr = [];
 
 function runTodo() {

@@ -2,4 +2,30 @@ body{
     background-image: url(Assets/backgro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Signika"!important;
+    padding-top: 50px;
+}
+
+.parent
+{
+max-width: 320px;
+margin: auto;    
+background-color: #fff;
+}
+#inputTodo{
+    padding: 10px;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+button{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+i{
+    color: #fff;
 }
