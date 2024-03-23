@@ -6,14 +6,14 @@
 
 // Answer:
 
-let head2 = document.querySelector(`#head02`)
-let hello = "Hello World";
+// let head2 = document.querySelector(`#head02`)
+// let hello = "Hello World";
 
-for (let i = 0; i < 5; i++) {
-    // console.log('hello world', i);
-    head2.innerHTML += `<li>${hello} ${i +1}</li>`
+// for (let i = 0; i < 5; i++) {
+//     // console.log('hello world', i);
+//     head2.innerHTML += `<li>${hello} ${i +1}</li>`
 
-}
+// }
 
 
 
@@ -24,13 +24,13 @@ for (let i = 0; i < 5; i++) {
 
 // Answer:
 
-let ol = document.querySelector(`#head02`)
-for (let i = 0; i < 10; i++) {
-    ol.innerHTML +=`<li>${"Number"} ${i +1}</li>`
-    // console.log(i+1);
+// let ol = document.querySelector(`#head02`)
+// for (let i = 0; i < 10; i++) {
+//     ol.innerHTML +=`<li>${"Number"} ${i +1}</li>`
+//     // console.log(i+1);
     
     
-}
+// }
 
 
 
@@ -42,9 +42,9 @@ for (let i = 0; i < 10; i++) {
 
 // Answer
 
-let table = prompt("Enter Table");
-let times = prompt("Enter Lenght");
-for (let  i= 1;  i < times ; i++) {
-    console.log(`${table} * ${i} = ${table * i+1}`);
+// let table = prompt("Enter Table");
+// let times = prompt("Enter Lenght");
+// for (let  i= 1;  i <= times ; i++) {
+//     console.log(`${table} * ${i} = ${table * i}`);
     
-}
+// }
