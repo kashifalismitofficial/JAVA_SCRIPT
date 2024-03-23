@@ -65,19 +65,84 @@
 
 
 
-// <<<<<<<<<<< Question No 04 >>>>>>>>>>>>
+// <<<<<<<<<<< Question No 05 >>>>>>>>>>>>
 // Write a program to print items of the following array using for loop:
 // fruits = ["apple”, "banana”, "mango”, "orange”, "strawberry”]
 
 // Answer:
 
-let pro = document.querySelector(`#pro`);
-let content = document.querySelector(`#content`);
-let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// let pro = document.querySelector(`#pro`);
+// let content = document.querySelector(`#content`);
+// let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 
-for (let i = 0; i < fruits.length; i++) {
-    pro.innerHTML += `<p>${fruits[i]}</p>`
-    content.innerHTML += `<p>Element At Index ${i} is ${fruits[i]}  </p>`
+// for (let i = 0; i < fruits.length; i++) {
+//     pro.innerHTML += `<p>${fruits[i]}</p>`
+//     content.innerHTML += `<p>Element At Index ${i} is ${fruits[i]}</p>`
+
+// }
+
+
+
+// <<<<<<<<<<< Question No 06 >>>>>>>>>>>>
+// Write a program to initialize an array of N items by using 
+// prompt. Where N is number of items as entered by the user.
+
+// Answer:
+
+// let number = +prompt("Enter Number Of Items");
+// let render = document.querySelector(`#render`);
+// let render_list= document.querySelector(`#render_list`);
+// let arr = [];
+
+
+// function RunLoop() {
+//    let items = prompt(`Enter value for index ${i}`);
+//    arr.push(items);
+//    render.innerHTML = `<p>Number of Items: ${number} </p> Items:`
+//    render_list.innerHTML +=`<p>${arr[i]}</p>`;
+// }
+// for (i = 0; i < number; i++) {
+//    RunLoop()
+// }
+
+
+
+
+// <<<<<<<<<<< Question No 07 >>>>>>>>>>>>
+// Generate the following series in your browser. See example
+// output.
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
+document.write(`<h2>Counting:</h2>`)
+for (let i = 1; i <= 15; i++) {
+   document.write(`<span>${i},</span>`);
+}
+document.write(`<h2>Reverse counting:</h2>`)
+for (let i = 10; i >= 1; i--) {
+   document.write(`<span>${i},</span>`);
+   
+}
+document.write(`<h2>Even:</h2>`)
+for (i = 0; i < 20; i+= 2){
+   document.write(`<span>${i},</span>`);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
