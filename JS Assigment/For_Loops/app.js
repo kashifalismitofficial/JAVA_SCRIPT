@@ -1,7 +1,7 @@
 // For Loops Assigment
 
 // <<<<<<<<<<< Question No 01 >>>>>>>>>>>>
-//  Write a program to display the message "Hello World” 5 times 
+//  Write a program to display the message "Hello World" 5 times 
 // in your browser using for loop
 
 // Answer:
@@ -49,7 +49,7 @@
 
 // <<<<<<<<<<< Question No 04 >>>>>>>>>>>>
 // You have an array
-// A = ["Nokia”, "Samsung”, "Apple”, "Sony”, "Huawei”]
+// A = ["Nokia", "Samsung", "Apple", "Sony", "Huawei"]
 // Write each element on new line with the help of for loop.
 
 // Answer:
@@ -67,7 +67,7 @@
 
 // <<<<<<<<<<< Question No 05 >>>>>>>>>>>>
 // Write a program to print items of the following array using for loop:
-// fruits = ["apple”, "banana”, "mango”, "orange”, "strawberry”]
+// fruits = ["apple", "banana", "mango", "orange", "strawberry"]
 
 // Answer:
 
@@ -116,24 +116,91 @@
 // c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
 // d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
 // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
-document.write(`<h2>Counting:</h2>`)
-for (let i = 1; i <= 15; i++) {
-   document.write(`<span>${i},</span>`);
+
+// Answer:
+// document.write(`<h2>Counting:</h2>`)
+// for (let i = 1; i <= 15; i++) {
+//    document.write(`<span>${i},</span>`);
+// }
+// document.write(`<h2>Reverse counting:</h2>`)
+// for (let i = 10; i >= 1; i--) {
+//    document.write(`<span>${i},</span>`);
+
+// }
+// document.write(`<h2>Even:</h2>`)
+// for (i = 0; i <= 20; i += 2) {
+//    document.write(`<span>${i},</span>`);
+
+// }
+// document.write(`<h2>Odd:</h2>`)
+// for (i = 1; i <= 19; i += 2) {
+//    document.write(`<span>${i},</span>`);
+
+// }
+// document.write(`<h2>Series:</h2>`)
+// for (i = 2; i <= 20; i = i + 2) {
+//    document.write(`<span>${i}k,</span>`);
+
+// }
+
+
+
+// <<<<<<<<<<< Question No 08 >>>>>>>>>>>>
+document.write(`<p>8. You have an array
+A = ["cake", "apple pie", "cookie", "chips", "patties"]
+Write a program to enable "search by user input" in an array.
+After searching, prompt the user whether the given item is
+found in the list or not. Example: </p>`)
+
+// Answer:
+// let User = prompt("Enter Item Name");
+// let bakery = ["cake", "apple pie", "cookie", "chips", "patties","pastry"];
+// let isAvailable = false;
+// for (i = 0; i <= bakery.length; i++) {
+//    if (User === bakery[i]) {
+//      document.write(`${User} <b>is Available</b> at index ${i} in our bakery`);
+//       isAvailable = true;
+//    }
+// }
+// if (!isAvailable) {
+//    document.write(`We are Sorry ${User} is <b>not Available</b> in our bakery`);
+// }
+
+
+// <<<<<<<<<<< Question No 09 >>>>>>>>>>>>
+document.write(`<p>9. Write a program to identify the largest number in the given 
+array.
+A = [24, 53, 78, 91, 12]</p>`)
+
+// Answer:
+
+let aryLargest = [24, 53, 78, 91, 12];
+var largestNumber = aryLargest[0];
+for (i = 1; i < aryLargest.length; i++) {
+   if (aryLargest[i] > largestNumber) {
+      largestNumber = aryLargest[i]
+   }
 }
-document.write(`<h2>Reverse counting:</h2>`)
-for (let i = 10; i >= 1; i--) {
-   document.write(`<span>${i},</span>`);
-   
+// document.write(`<p>Array Items:[24, 53, 78, 91, 12]</p> The largest Number in array is ${largestNumber}`)
+
+
+
+
+document.write(`10. Write a program to identify the smallest number in the given 
+array.
+A = [24, 53, 78, 91, 12]`)
+
+// Answer:
+
+let arysmall = [24, 53, 78, 91, 12];
+let smallNumber = arysmall[0];
+
+for (let i = 1; i < arysmall.length; i++) {
+   if (arysmall[i] < smallNumber) {
+      smallNumber = arysmall[i]
+   }
 }
-document.write(`<h2>Even:</h2>`)
-for (i = 0; i < 20; i+= 2){
-   document.write(`<span>${i},</span>`);
-
-}
-
-
-
-
+document.write(`<p>Array Items:[24, 53, 78, 91, 12]</p> The Smallest Number in array is ${smallNumber}`)
 
 
 
