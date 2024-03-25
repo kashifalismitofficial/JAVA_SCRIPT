@@ -44,9 +44,9 @@ function deletTodo(index) {
 function editTodo(index) {
     ol.innerHTML = ""
     console.log(`edit todo`, index);
-    let updatedvalue = prompt("Enter Updated Value");
-    arr.splice(index, 1, updatedvalue)
-
+    // let updatedvalue = prompt("Enter Updated Value");
+    let updatedvalue = `<input type="text" placeholder="updatedvalue">`;
+    arr.splice(index, 1 , updatedvalue);
 
     for (let i = 0; i < arr.length; i++) {
         ol.innerHTML += `<li>${arr[i]}
