@@ -46,3 +46,15 @@ todoArray.splice(index,1,updatedValue)
 
    renderTodo()
 }
+
+
+
+
+for(var i = 0; i <= 3 ; i ++){
+    console.log("First Loop",i);
+   for(var j = 0 ; j <= 2 ; j ++ ) {
+    console.log("Second",j) }
+   for(var k = 0 ; k < 2 ; k++ ) {
+    console.log("Third LoopS",k)
+}
+}
