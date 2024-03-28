@@ -1,12 +1,18 @@
 let inputTodo = document.querySelector(`#inputTodo`);
+let emtybtn = document.write(`#btn`)
 let ol = document.querySelector(`ul`);
 let arr = [];
 
 function runTodo() {
     ol.innerHTML = "";
-    arr.push(inputTodo.value);
-    inputTodo.value = "";
-    console.log(arr);
+
+    if (inputTodo.value == "") {
+        alert('Enter Your Task');
+    } else {
+        arr.push(inputTodo.value);
+        console.log(arr);
+        inputTodo.value = "";
+    }
 
     for (let i = 0; i < arr.length; i++) {
         ol.innerHTML += `<li>${arr[i]}
@@ -37,9 +43,9 @@ function deletTodo(index) {
 function editTodo(index) {
     ol.innerHTML = ""
     console.log(`edit todo`, index);
-    let updatedvalue = prompt("Enter Updated Value");
-    arr.splice(index, 1, updatedvalue)
-
+    // let updatedvalue = prompt("Enter Updated Value");
+    let updatedvalue = `<input type="text" placeholder="updatedvalue">`;
+    arr.splice(index, 1 , updatedvalue);
 
     for (let i = 0; i < arr.length; i++) {
         ol.innerHTML += `<li>${arr[i]}
