@@ -103,7 +103,7 @@
 
 //     let table = +prompt('Enter table');
 //     let times = +prompt('Enter time')
-    
+
 //     for  (i = 1; i <= times ; i++){
 //         console.log(${table}* ${i} = ${table * i});
 //     }
@@ -111,12 +111,12 @@
 
 //     let table = 2;
 //     let times = 10;
-    
+
 //     for  (i = 1; i <= times ; i++){
 //         console.log(${table}* ${i} = ${table * i});
 //     }
-     
-    
+
+
 //     for  (i = 1; i <= 10 ; i++){
 //         console.log(${3}* ${i} = ${3 * i});
 //     }
@@ -174,7 +174,7 @@
 
 // for (let i = 1; i < 10; i++) {
 //    console.log(`${table} * ${i} = ${table * i}`);
-    
+
 // }
 
 
@@ -186,7 +186,7 @@
 
 // for (let i = 1; i < 10; i++) {
 //    console.log(`${table} * ${i} = ${table * i}`);
-    
+
 // }
 
 
@@ -194,19 +194,103 @@
 
 // for (let i = 1; i < 10; i++) {
 //    console.log(`${table} * ${i} = ${table * i}`);
-    
+
 // }
 
 // let table = `5`;
 
 // for (let i = 1; i < 10; i++) {
 //    console.log(`${table} * ${i} = ${table * i}`);
-    
+
 // }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let aryLargest = [24, 53, 78, 91, 12];
+// var largestNumber = aryLargest[0];
+// for (i = 1; i < aryLargest.length; i++) {
+//    if (aryLargest[i] < largestNumber) {
+//       largestNumber = aryLargest[i]
+//    }
+// }
+// document.write(`<p>Array Items:[24, 53, 78, 91, 12]</p> The largest Number in array is ${largestNumber}`)
+
+
+
+
+//infinite loops
+
+// let i = 1;
+// while(i > 0){
+//     console.log(i);
+//     i++
+// }
+
+
+
+// while loop
+// let j = 1;
+// while (j <= 10) {
+//     console.log('while loop ===>', j);
+//     j++
+// }
+
+// do while loop
+// let i = 1;
+// do {
+//     console.log('do while loop ===>', i)
+//     i++
+// } while (i <= 10)
+
+
+
+
+
+
+
+
+
+
+// <<<<<<<<<<<<<<<<<<<Todo App>>>>>>>>>>>>>>>>>>>>
+
+let array = [`mango`, `apple`, `bnana`];
+let unorder = document.querySelector(`ul`);
+
+for (i = 0; i < array.length; i++) {
+
+    unorder.innerHTML += `<li>${array[i]} <button onclick="deleteone(${i})">Delete</button></li>`
+}
+
+
+
+
+function deleteone(index){
+    unorder.innerHTML = "";
+    array.splice(index , 1);
+    for (i = 0; i < array.length; i++) {
+        unorder.innerHTML += `<li>${array[i]}<button onclick="deleteone(${i})">Delete</button></li>`
+    }
+}
+
+function DeleteAll() {
+unorder.innerHTML="";
+}
 
 
 

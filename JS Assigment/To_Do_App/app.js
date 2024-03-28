@@ -13,7 +13,6 @@ function runTodo() {
         <span class="action"><button onclick="deletTodo(${i})">Delete</button> <button onclick=
         "editTodo(${i})">Edit</button></span>
         </li>`
-
     }
 
 
