@@ -5,7 +5,7 @@ const phones = [
         ram: 8,
         rom: 256,
         camera: '20 megapixel',
-        price: 15000
+        price: 75000
     },
     {
         brand: 'Xiomi',
@@ -13,7 +13,7 @@ const phones = [
         ram: 4,
         rom: 64,
         camera: '10 megapixel',
-        price: 15000
+        price: 25000
     },
     {
         brand: 'Infinix',
@@ -21,7 +21,7 @@ const phones = [
         ram: 2,
         rom: 16,
         camera: '5 megapixel',
-        price: 15000
+        price: 34000
     },
     {
         brand: 'Tecno',
@@ -29,7 +29,7 @@ const phones = [
         ram: 12,
         rom: 512,
         camera: '25 megapixel',
-        price: 15000
+        price: 48000
     },
     {
         brand: 'Iphone',
@@ -37,7 +37,7 @@ const phones = [
         ram: 4,
         rom: 1024,
         camera: '30 megapixel',
-        price: 15000
+        price: 120000
     },
     {
         brand: 'Oppo',
@@ -53,7 +53,7 @@ const phones = [
         ram: 4,
         rom: 64,
         camera: '8 megapixel',
-        price: 15000
+        price: 18000
     },
     {
         brand: 'Samsung',
@@ -76,12 +76,37 @@ function renderProducts() {
     <h5 class="card-title">${phones[i].brand + '  ' + phones[i].model}</h5>
     <h6 class="card-subtitle mb-2 text-muted">Camera ${phones[i].camera}</h6>
     <h6 class="card-subtitle mb-2 ">Ram ${phones[i].ram} Rom ${phones[i].rom}</h6>
-    <h6 class="card-subtitle mb-2 ">${phones[i].price}</h6>
-<button class="btn btn-primary">Add to Cart</button>
+    <h6 class="card-subtitle mb-2  ">Price $${phones[i].price}</h6>
+<button class="btn btn-primary" onclick='addtocart(${i})'>Add to Cart</button>
 </div>
         `
-
     }
 }
 renderProducts()
-o
+let arr = [];
+
+
+function addtocart(index) {
+
+    arr.push(phones[index])
+    console.log(arr);
+    phones[index].quantity += 1;
+    // if (arr.includes(phones[index])) {
+    //     // console.log('item included');
+    //     phones[index].quantity += 1;
+    // } else {
+    //     phones[index].quantity = 1;
+    //     arr.push(phones[index]);
+    // }
+    // console.log(arr);
+
+
+
+    // console.log("add to cart", index);
+}
+
+function checkout(){
+    localStorage.setItem('cartItems', JSON.stringify(arr))
+    window.location='cart.html';
+    console.log(`chek cart`);
+}
