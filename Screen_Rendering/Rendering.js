@@ -112,7 +112,7 @@ let render = document.querySelector(`.center`);
 function renDer() {
     for (let i = 0; i < products.length; i++) {
         render.innerHTML += `
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 20rem;">
         <div class="card-body">
         <h5 class="card-title fw-bold">${products[i].name} </h5>
         <h6 class="card-text text-muted">$${products[i].price} </h6>
