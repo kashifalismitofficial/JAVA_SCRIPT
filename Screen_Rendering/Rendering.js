@@ -112,8 +112,15 @@ let render = document.querySelector(`.center`);
 function renDer() {
     for (let i = 0; i < products.length; i++) {
         render.innerHTML += `
-    <h3>${products[i].name} </h3>
-    <h3 class="s">${ products[i].description} </h3>
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+        <h5 class="card-title fw-bold">${products[i].name} </h5>
+        <h6 class="card-text text-muted">$${products[i].price} </h6>
+          <h6 class="card-subtitle mb-2 ">${products[i].description} </h6>
+        <button class="btn btn-success">Add to Cart</button>
+        </div>
+      </div>
+
     `
         
     }
