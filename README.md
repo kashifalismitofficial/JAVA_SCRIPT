@@ -15,11 +15,11 @@
 # To Do App
 ## https://todo-kashifali.netlify.app/
 
-<<<<<<< HEAD
-# Rendering Assigent 
-=======
+
+# Registeration Form Assigment 
+
+
 # Rendering Products
->>>>>>> cafa8b40d5ce3964c17efd5a0d670c3852234de8
 ## https://kashifaliscreenrenderig.netlify.app/
 
 ### Github Pull

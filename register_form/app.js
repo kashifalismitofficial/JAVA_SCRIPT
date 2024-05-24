@@ -22,18 +22,28 @@ form.addEventListener('submit', function(event){
     // console.log(firstName.test(input02.value));
     if (firstName.test(input01.value)){
             console.log(input01.value);
+        }else{
+            alert('Enter Correct Firtst Name')
         }
         if (lastName.test(input02.value)){
             console.log(input02.value);
+        }else{
+            alert('Enter Correct Last Name')
         }
         if (SchoolName.test(input03.value)){
             console.log(input03.value);
+        }else{
+            alert('Enter Correct School Name')
         }
         if (email.test(input04.value)){
             console.log(input04.value);
+        }else{
+            alert('Enter Correct Email')
         }
         if (cnicPattern.test(input05.value)){
             console.log(input05.value);
+        }else{
+            alert('Enter Correct CNIC Number')
         }
         input01.value =''
         input02.value =''
