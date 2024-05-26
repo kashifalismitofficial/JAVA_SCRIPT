@@ -237,6 +237,7 @@ const filteredItems = (btn) => {
           <h5 class="card-subtitle mb-2 text-muted">Brand : ${items.brand} </h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <h5 class="card-subtitle mb-2 ">Price : $${items.price} </h5>
+          <button class='btn btn-light border '>Add to Cart</button>
           
         </div>
       </div>`
