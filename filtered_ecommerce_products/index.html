@@ -5,20 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filtered Products</title>
+    <style>
+        .btns {
+            padding: 6px 17px;
+            background-color: rgb(221, 221, 231);
+            border: 1px solid #000000;
+            border-radius: 10px;
+
+            color: #000000;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <button onclick="filteredItems(this)">Electronics</button>
-    <button onclick="filteredItems(this)">Footwear</button>
-    <button onclick="filteredItems(this)">Home Appliances</button>
-    <button onclick="filteredItems(this)">Stationery</button>
-    <button onclick="filteredItems(this)">Fitness</button>
-    <button onclick="filteredItems(this)">Kitchen Appliances</button>
-    <button onclick="showAll()">All Items</button>
-    
-    <div id="Products"></div>
+    <div class="text-center mt-5">
+        <h2 class="fw-bold fs-1">Filter Assigment</h2>
+        <br>
+    <button onclick="filteredItems(this)" class="btn btn-primary">Electronics</button>
+    <button onclick="filteredItems(this)" class="btn btn-primary">Footwear</button>
+    <button onclick="filteredItems(this)" class="btn btn-primary">Home Appliances</button>
+    <button onclick="filteredItems(this)" class="btn btn-primary">Stationery</button>
+    <button onclick="filteredItems(this)" class="btn btn-primary">Fitness</button>
+    <button onclick="filteredItems(this)" class="btn btn-primary">Kitchen Appliances</button>
+    <button onclick="showAll()" class="btn btn-primary">All Items</button>
+    </div>
+
+    <div id="Products" class="center mt-5 d-flex justify-content-center gap-4 flex-wrap mb-5"></div>
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

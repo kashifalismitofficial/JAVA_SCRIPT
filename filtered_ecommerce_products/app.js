@@ -24,12 +24,7 @@ const products = [
         category: "Electronics",
         brand: "JBL"
     },
-    {
-        name: "Laptop",
-        price: 999.99,
-        category: "Electronics",
-        brand: "Apple"
-    },
+
 
     // Footwear
     {
@@ -38,12 +33,7 @@ const products = [
         category: "Footwear",
         brand: "Nike"
     },
-    {
-        name: "Sneakers",
-        price: 75.99,
-        category: "Footwear",
-        brand: "Adidas"
-    },
+
     {
         name: "Sandals",
         price: 25.99,
@@ -71,12 +61,6 @@ const products = [
         brand: "Oster"
     },
     {
-        name: "Microwave Oven",
-        price: 99.99,
-        category: "Home Appliances",
-        brand: "Panasonic"
-    },
-    {
         name: "Air Conditioner",
         price: 299.99,
         category: "Home Appliances",
@@ -96,12 +80,7 @@ const products = [
     },
 
     // Stationery
-    {
-        name: "Notebook",
-        price: 3.99,
-        category: "Stationery",
-        brand: "Moleskine"
-    },
+
     {
         name: "Pen Set",
         price: 12.99,
@@ -128,12 +107,7 @@ const products = [
     },
 
     // Furniture
-    {
-        name: "Desk Chair",
-        price: 89.99,
-        category: "Furniture",
-        brand: "Ikea"
-    },
+
     {
         name: "Coffee Table",
         price: 129.99,
@@ -160,12 +134,7 @@ const products = [
     },
 
     // Fitness
-    {
-        name: "Yoga Mat",
-        price: 19.99,
-        category: "Fitness",
-        brand: "Gaiam"
-    },
+
     {
         name: "Dumbbells",
         price: 49.99,
@@ -192,12 +161,7 @@ const products = [
     },
 
     // Kitchen Appliances
-    {
-        name: "Coffee Maker",
-        price: 49.99,
-        category: "Kitchen Appliances",
-        brand: "Keurig"
-    },
+
     {
         name: "Air Fryer",
         price: 89.99,
@@ -242,23 +206,40 @@ const products = [
 
 const rendingproducts = document.querySelector('#Products');
 
-const showAll = ()=>{
+const showAll = () => {
     products.map((items) => {
         // console.log(items.category);
-        rendingproducts.innerHTML += `<h2>Product Name : ${items.brand} ${items.name} </h2>
-       <h2>Category : ${items.category} </h2>
-       <h2>Price : ${items.price} </h2><hr>`
-    })  
+        //     rendingproducts.innerHTML += `<h2>Product Name : ${items.brand} ${items.name} </h2>
+        //    <h2>Category : ${items.category} </h2>
+        //    <h2>Category : ${items.category} </h2>
+        //    <h2>Price : $${items.price} </h2><hr>`
+        rendingproducts.innerHTML += `<div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h4 class="card-title ">${items.category} </h4>
+          <h5 class="card-subtitle mb-2 text-muted">Brand : ${items.brand} </h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-subtitle mb-2 ">Price : $${items.price} </h5>
+          <button class='btn btn-light border '>Add to Cart</button>
+          
+        </div>
+      </div>`
+    })
 }
-  
+
 const filteredItems = (btn) => {
     rendingproducts.innerHTML = ""
     // console.log(btn.innerHTML);
     const filtered = products.filter((items) => items.category === btn.innerHTML
-    ).map(items =>{
-        rendingproducts.innerHTML += `<h2>Product Name : ${items.brand} ${items.name} </h2>
-   <h2>Category : ${items.category} </h2>
-   <h2>Price : ${items.price} </h2><hr>`
+    ).map(items => {
+        rendingproducts.innerHTML += `<div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h4 class="card-title ">${items.category} </h4>
+          <h5 class="card-subtitle mb-2 text-muted">Brand : ${items.brand} </h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-subtitle mb-2 ">Price : $${items.price} </h5>
+          
+        </div>
+      </div>`
     })
     // console.log(filtered);
 }
