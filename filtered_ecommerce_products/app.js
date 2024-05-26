@@ -242,18 +242,24 @@ const products = [
 
 const rendingproducts = document.querySelector('#Products');
 
-
-products.map((items) => {
-    // console.log(items.category);
-    rendingproducts.innerHTML += `<h2>Product Name : ${items.brand} ${items.name} </h2>`
-    rendingproducts.innerHTML += `<h2>Category : ${items.category} </h2>`
-    rendingproducts.innerHTML += `<h2>Price : ${items.price} </h2><hr>` 
-})
-
-const filteredItems = (btn) =>{
- console.log(btn.innerHTML);
- const filtered = products.filter((items)=>{
-    return items.category === btn.innerHTML
-})   
-rendingproducts.innerHTML(filtered);
+const showAll = ()=>{
+    products.map((items) => {
+        // console.log(items.category);
+        rendingproducts.innerHTML += `<h2>Product Name : ${items.brand} ${items.name} </h2>
+       <h2>Category : ${items.category} </h2>
+       <h2>Price : ${items.price} </h2><hr>`
+    })  
 }
+  
+const filteredItems = (btn) => {
+    rendingproducts.innerHTML = ""
+    // console.log(btn.innerHTML);
+    const filtered = products.filter((items) => items.category === btn.innerHTML
+    ).map(items =>{
+        rendingproducts.innerHTML += `<h2>Product Name : ${items.brand} ${items.name} </h2>
+   <h2>Category : ${items.category} </h2>
+   <h2>Price : ${items.price} </h2><hr>`
+    })
+    // console.log(filtered);
+}
+
