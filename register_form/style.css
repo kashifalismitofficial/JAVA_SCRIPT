@@ -2,7 +2,24 @@
 {
 padding: 8px ;
 padding-right:50px;
-padding-left:8px;
-width: 350px;
+padding-left:18px;
+width: 450px;
 margin-top: 8px;
+border-radius: 12px;
+}
+
+.sub{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 12px;
+}
+.wdth{
+    width: 130px;
+}
+.txt{
+    font-size: 80px;
+    font-family: "Google Sans", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: 800;
 }
