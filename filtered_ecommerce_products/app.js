@@ -5,6 +5,7 @@ const products = [
         price: 25.99,
         category: "Electronics",
         brand: "Logitech"
+    
     },
     {
         name: "Smartphone",
