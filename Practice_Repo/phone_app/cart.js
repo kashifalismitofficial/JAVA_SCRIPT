@@ -1,4 +1,4 @@
-const cartitems = JSON.parse(localStorage.getItem('cartItems'));
+const cartItems = JSON.parse(localStorage.getItem('cartItems'));
 
 const div = document.querySelector('div');
 const totalAmount = document.querySelector('#total-amount');

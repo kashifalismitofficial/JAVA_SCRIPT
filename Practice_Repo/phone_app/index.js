@@ -91,14 +91,14 @@ function addtocart(index) {
     arr.push(phones[index])
     console.log(arr);
     phones[index].quantity += 1;
-    // if (arr.includes(phones[index])) {
-    //     // console.log('item included');
-    //     phones[index].quantity += 1;
-    // } else {
-    //     phones[index].quantity = 1;
-    //     arr.push(phones[index]);
-    // }
-    // console.log(arr);
+    if (arr.includes(phones[index])) {
+        // console.log('item included');
+        phones[index].quantity += 1;
+    } else {
+        phones[index].quantity = 1;
+        arr.push(phones[index]);
+    }
+    console.log(arr);
 
 
 
