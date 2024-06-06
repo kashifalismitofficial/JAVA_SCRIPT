@@ -87,7 +87,7 @@ let arr = [];
 
 
 function addtocart(index) {
-
+console.log('clicked',index);
     arr.push(phones[index])
     console.log(arr);
     phones[index].quantity += 1;
